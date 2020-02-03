@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53715" started-at="2020-02-03T11:55:51 EST" finished-at="2020-02-03T11:56:45 EST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53715" started-at="2020-02-03T11:55:51 EST" finished-at="2020-02-03T11:56:45 EST">
+      <class name="login.Login">
+        <test-method status="PASS" signature="Login()[pri:0, instance:login.Login@17d677df]" name="Login" is-config="true" duration-ms="14619" started-at="2020-02-03T11:55:51 EST" finished-at="2020-02-03T11:56:06 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="SingleUse()[pri:1, instance:login.Login@17d677df]" name="SingleUse" duration-ms="10154" started-at="2020-02-03T11:56:06 EST" finished-at="2020-02-03T11:56:16 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SingleUse -->
+        <test-method status="PASS" signature="closeCon()[pri:0, instance:login.Login@17d677df]" name="closeCon" is-config="true" duration-ms="1" started-at="2020-02-03T11:56:16 EST" finished-at="2020-02-03T11:56:16 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCon -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:login.Login@17d677df]" name="Login" is-config="true" duration-ms="12114" started-at="2020-02-03T11:56:16 EST" finished-at="2020-02-03T11:56:28 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="MultiUse()[pri:2, instance:login.Login@17d677df]" name="MultiUse" duration-ms="15927" started-at="2020-02-03T11:56:28 EST" finished-at="2020-02-03T11:56:44 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiUse -->
+        <test-method status="PASS" signature="closeCon()[pri:0, instance:login.Login@17d677df]" name="closeCon" is-config="true" duration-ms="830" started-at="2020-02-03T11:56:44 EST" finished-at="2020-02-03T11:56:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeCon -->
+      </class> <!-- login.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
